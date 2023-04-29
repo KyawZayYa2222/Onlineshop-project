@@ -1,0 +1,248 @@
+@media only screen and (max-width: 1200px) {
+    .p-card, .p-card .card-head, .p-card .card-head::after{
+        width: 14rem;
+    }
+    .p-card .card-head, .p-card .card-head::after{
+        height: 8rem;
+    }
+    .p-card .addcard #sm-btn, .p-card .wishlist #sm-btn{
+        display: block;
+    }
+    .p-card .addcard #lg-btn, .p-card .wishlist #lg-btn{
+        display: none;
+    }
+    .category-con{
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .slide-txt h1{
+        font-size: 24px;
+    }
+    .slide-txt h2{
+        font-size: 20px;
+    }
+    .h-card{
+        margin-top: -20px;
+    }
+    .p-card, .p-card .card-head, .p-card .card-head::after{
+        width: 12rem;
+    }
+    .p-card .card-head, .p-card .card-head::after{
+        height: 8rem;
+    }
+    .form, .form input, .form textarea{
+        width: 360px;
+    }
+    .info{
+        width: auto;
+    }
+    .filter-con{
+        width: auto;
+    }
+    .carousel-text{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #search-int{
+        width: 400px;
+    }
+    .h-card, .h-card .card-head, .h-card .card-head::after{
+        width: 14rem;
+    }
+
+    .h-card .addcard #sm-btn, .h-card .wishlist #sm-btn{
+        display: block;
+    }
+    .h-card .addcard #lg-btn, .h-card .wishlist #lg-btn{
+        display: none;
+    }
+    .lg-links{
+        display: none;
+    }
+    .sm-links{
+        display: block;
+    }
+    .info{
+        width: 400px;
+    }
+    .menu-item .menu-text{
+        display: none;
+    }
+    #change-pass-content form input{
+        width: 350px;
+    }
+    .category-con{
+        width: auto;
+    }
+    .logo h1{
+        display: none;
+    }
+    .payment_info{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #search-int{
+        width: 300px;
+    }
+    .slide-txt h1{
+        font-size: 20px;
+    }
+    .slide-txt h2{
+        font-size: 16px;
+    }
+    .shop-btn1{
+        font-size: 14px;
+    }
+    .h-card, .h-card .card-head, .h-card .card-head::after{
+        width: 12rem;
+    }
+    .h-card .card-head, .h-card .card-head::after{
+        height: 10rem;
+    }
+    .p-card, .p-card .card-head, .p-card .card-head::after{
+        width: 10rem;
+    }
+    .p-card .card-head, .p-card .card-head::after{
+        height: 8rem;
+    }
+    .p-card .card-body{
+        line-height: 18px;
+    }
+    .card-body .desc{
+        display: none;
+    }
+    .login form input{
+        width: 380px;
+    }
+    .custom-con table .lg-cardbtn{
+        display: none;
+    }
+    .custom-con table .sm-cardbtn{
+        display: block;
+    }
+    .menu-con .large-menu{
+        display: none !important;
+    }
+    .menu-con .small-menu{
+        display: flex !important;
+    }
+    .profile-img-con img{
+        width: 200px;
+    }
+    .profile-img-con{
+        width: 190px;
+        height: 190px;
+    }
+    .sidebar{
+        width: auto;
+    }
+    .detail-img{
+        width: 250px;
+    }
+    .product-desc-con{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 416px) {
+    #search-btn, #wishlist, #profile, #card{
+        font-size: 16px;
+    }
+    .h-card, .h-card .card-head, .h-card .card-head::after{
+        width: 10rem;
+    }
+    .h-card .card-head, .h-card .card-head::after{
+        height: 7rem;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .card-body{
+        font-size: 14px;
+    }
+    .service-card .icon{
+        width: 65px;
+        height: 65px;
+        font-size: 30px;
+    }
+    .form, .form input, .form textarea{
+        width: 320px;
+    }
+    .info{
+        width: auto;
+    }
+    .form{
+        width: auto;
+    }
+    .login form input{
+        width: 300px;
+    }
+    .wishlist table img{
+        width: 50px;
+    }
+    /* .addcard-sm-con{
+        display: block;
+    }
+    .addcard-lg-con{
+        display: none;
+    } */
+    .td-hide-sm{
+        display: none;
+    }
+    .order-content-img-thumbnail{
+        width: 70px;
+    }
+    #change-pass-content form input{
+        width: 310px;
+    }
+    .category-con{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .h-card, .h-card .card-head, .h-card .card-head::after{
+        width: 8rem;
+    }
+    .custom-btn{
+        padding: 2px 5px 2px 5px;
+    }
+    .stars{
+        font-size: 12px;
+    }
+    #search-int{
+        width: 200px;
+        height: 30px;
+    }
+    .p-card, .p-card .card-head, .p-card .card-head::after{
+        width: 8rem;
+    }
+    .p-card .card-head, .p-card .card-head::after{
+        height: 7rem;
+    }
+    .form, .form input, .form textarea{
+        width: 300px;
+    }
+    #change-pass-content form input{
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    #wishlist, #profile, #card{
+        display: block;
+    }
+    .service-card{
+        padding: 8px;
+        width: 14rem;
+    }
+    #change-pass-content form input{
+        width: 260px;
+    }
+}
