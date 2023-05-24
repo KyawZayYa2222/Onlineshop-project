@@ -21,8 +21,8 @@
                 <div class="navbar-brand">
                     <a href="{{route('welcome')}}" class="logo-con">
                         <div class="d-flex logo">
-                            <img src="{{asset('user/img/meron-logo3.png')}}" width="49px" height="49px">
-                            <h1 class="ms-1">Meron</h1>
+                            <img src="{{asset('user/img/meron-logo3.png')}}" width="52px" height="49px">
+                            {{-- <h1 class="ms-1">Meron</h1> --}}
                         </div>
                     </a>
                 </div>
@@ -235,6 +235,25 @@
     <script src="{{asset('user/js/custom.js')}}"></script>
     <script src="{{asset('user/js/bootstrap-input-spinner.js')}}"></script>
     <script src="{{asset('admin/js/alert.js')}}"></script>
+    <script>
+        // for cart count
+        $.ajax({
+            method: 'GET',
+            url: 'http://127.0.0.1:8000/cart/ajax/list',
+            success: (response) => {
+                $('#card span').html(response.length);
+            }
+        })
+
+        // for wishlist count
+        $.ajax({
+            method: 'GET',
+            url: 'http://127.0.0.1:8000/wishlist/ajax/list',
+            success: (response) => {
+                $('#wishlist span').html(response.length);
+            }
+        })
+    </script>
     @yield('Javascripts')
 </body>
 </html>

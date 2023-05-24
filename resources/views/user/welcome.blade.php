@@ -12,12 +12,10 @@
                     <div class="row pt-sm-5 pt-3">
                         <div class="col col-sm-7 d-flex pt-xl-5 pb-2">
                             <div class="mx-auto slide-txt">
-                                <h1>Electronics</h1>
-                                {{-- <h2 class="mb-lg-4 mb-md-2">Smart watch orange color</h2> --}}
-                                <p class="carousel-text">Get high quality various electronic goods. Many popular and secured brands are prepared for you.</p>
+                                <h1><span style="color: rgb(0, 165, 44);">8%</span> Discount</h1>
+                                <h2 class="mb-lg-4 mb-md-2">Smart Watch</h2>
                                 <a href="#" class="shop-btn1 px-md-5 px-3 py-md-2 py-1">Shop Now</a>
                             </div>
-
                         </div>
                         <div class="col col-sm-5">
                             <img src="{{asset('user/img/watch.png')}}" class="d-block w-50" alt="">
@@ -32,10 +30,9 @@
                         <div class="col col-sm-7 d-flex pt-xl-5 pb-2">
                             <div class="mx-auto slide-txt">
                                 <h1><span style="color: rgb(0, 165, 44);">8%</span> Discount</h1>
-                                <h2 class="mb-lg-4 mb-md-2">Cannon M50 Mark-II black with kit lens</h2>
+                                <h2 class="mb-lg-4 mb-md-2">16 inches width LED Tv</h2>
                                 <a href="#" class="shop-btn1 px-md-5 px-3 py-md-2 py-1">Shop Now</a>
                             </div>
-
                         </div>
                         <div class="col col-sm-5">
                             <img src="{{asset('user/img/LCD_Tv.png')}}" class="d-block w-50" alt="">
