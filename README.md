@@ -3,7 +3,7 @@
 #### Ecommerce website included product filtering system, add to cart and wishlist, star rating system, product review system, order system, user profile and ecommerce admin dashboard
 ## Installation
 - clone repo
-- composer install or require
+- composer install or update
 - cp .env.example .env
 - setup .env file
 - php artisan migrate
